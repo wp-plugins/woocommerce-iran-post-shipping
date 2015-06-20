@@ -9,7 +9,7 @@ Stable tag: 1.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-WooCommerce Iran Post Shipping, Pishtaz and Sefareshi calculate
+افزونه محاسبه اتوماتیک نرخ پست های ایران
 
 == Description ==
 
