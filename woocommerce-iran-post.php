@@ -3,7 +3,7 @@
 Plugin Name: روش حمل و نقل پست ایران برای ووکامرس
 Plugin URI: http://parsmizban.com
 Description: این پلاگین روش حمل و نقل پست سفارشی و پیشتاز ایران را محاسبه و به سیستم اضافه می کند.
-Version: 1.0.0
+Version: 1.0.1
 Author: فرهاد سخایی
 Author URI: http://parsmizban.com
 */
