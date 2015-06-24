@@ -5,7 +5,7 @@ Tags: woocommerce, persian woocommerce, iran post, iran shipping, pishtaz, sefar
 Requires at least: 4.0
 Donate link: http://parsmizban.com
 Tested up to: 4.2.2
-Stable tag: 1.1
+Stable tag: 1.0.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -81,7 +81,11 @@ Automatic updates should work like a charm; as always though, ensure you backup 
 
 == Changelog ==
 
-= 1.1 =
+= 1.0.2 =
+حذف فایل یوتیلیتی به درخواست ووکامرس فارسی
+tohi20 رند شدن اعداد زیر صد تومان به بالا به درخواست
+
+= 1.0.1 =
 برطرف شدن مشکل محاسبه
 
 = 1.0 =

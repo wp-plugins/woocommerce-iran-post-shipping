@@ -443,6 +443,9 @@ if ( ! class_exists( 'WC_Iran_Sefareshi_Shipping' ) ) {
 				$shipping_total = ceil ( $shipping_total / 10000 );
 			}
 			
+			// round to up for amounts fewer than 100 tomans
+			$shipping_total = ( ceil ( $shipping_total / 100 ) ) * 100;
+			
 			$this->extra_cost_percent   = intval ($this->extra_cost_percent);
 			$this->extra_cost			= intval ($this->extra_cost);
 			$shipping_total +=  ceil ( ( $shipping_total * $this->extra_cost_percent) / 100 );
