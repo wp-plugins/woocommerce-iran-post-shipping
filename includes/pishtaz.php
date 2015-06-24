@@ -434,16 +434,16 @@ if ( ! class_exists( 'WC_Iran_Pishtaz_Shipping' ) ) {
 			
 			// post tax
 			$shipping_total += ceil( ( $shipping_total * $post_tax ) / 100 );
-			
+
+			// round to up for amounts fewer than 1000 rials
+			$shipping_total = ( ceil ( $shipping_total / 1000 ) ) * 1000;
+
 			// convert currency to current selected currency
 			if ( $this->current_currency == 'IRT' ) {
 				$shipping_total = ceil ( $shipping_total / 10 );
 			} elseif ( $this->current_currency == 'IRHT' ) {
 				$shipping_total = ceil ( $shipping_total / 10000 );
 			}
-			
-			// round to up for amounts fewer than 100 tomans
-			$shipping_total = ( ceil ( $shipping_total / 100 ) ) * 100;
 			
 			$this->extra_cost_percent   = intval ($this->extra_cost_percent);
 			$this->extra_cost			= intval ($this->extra_cost);
