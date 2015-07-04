@@ -369,7 +369,7 @@ if ( ! class_exists( 'WC_Iran_Pishtaz_Shipping' ) ) {
 			$rate_price['9999']['out'] 		= 27000;
 			
 			// invalid post code price
-			$invalid_postcode = 3100;
+			$invalid_postcode = 5050;
 			
 			// insurance (bime)
 			$insurance = 5000;

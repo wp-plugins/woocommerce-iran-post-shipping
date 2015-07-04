@@ -349,28 +349,28 @@ if ( ! class_exists( 'WC_Iran_Sefareshi_Shipping' ) ) {
 
 			// Iran Post Prices (prices are in Rial)
 			//http://www.post.ir/DesktopModules/Articles/ArticlesView.aspx?TabID=1&Site=postportal&Lang=fa-IR&ItemID=12350&mid=33125
-			$rate_price['250']['in'] 		= 15000;
-			$rate_price['250']['beside'] 	= 16000;
-			$rate_price['250']['out'] 		= 18000;
+			$rate_price['250']['in'] 		= 25000;
+			$rate_price['250']['beside'] 	= 28000;
+			$rate_price['250']['out'] 		= 30000;
 			
-			$rate_price['500']['in'] 		= 19000;
-			$rate_price['500']['beside'] 	= 20000;
-			$rate_price['500']['out'] 		= 22000;
+			$rate_price['500']['in'] 		= 32000;
+			$rate_price['500']['beside'] 	= 34000;
+			$rate_price['500']['out'] 		= 38000;
 			
-			$rate_price['1000']['in'] 		= 23000;
-			$rate_price['1000']['beside'] 	= 24000;
-			$rate_price['1000']['out'] 		= 27000;
+			$rate_price['1000']['in'] 		= 38000;
+			$rate_price['1000']['beside'] 	= 42000;
+			$rate_price['1000']['out'] 		= 47000;
 			
-			$rate_price['2000']['in'] 		= 31000;
-			$rate_price['2000']['beside'] 	= 32000;
-			$rate_price['2000']['out'] 		= 36000;
+			$rate_price['2000']['in'] 		= 53000;
+			$rate_price['2000']['beside'] 	= 55000;
+			$rate_price['2000']['out'] 		= 62000;
 			
-			$rate_price['9999']['in'] 		= 10000;
-			$rate_price['9999']['beside'] 	= 11000;
-			$rate_price['9999']['out'] 		= 13000;
+			$rate_price['9999']['in'] 		= 16000;
+			$rate_price['9999']['beside'] 	= 17000;
+			$rate_price['9999']['out'] 		= 19000;
 			
 			// invalid post code price
-			$invalid_postcode = 1900;
+			$invalid_postcode = 3100;
 			
 			// insurance (bime)
 			$insurance = 3000;
